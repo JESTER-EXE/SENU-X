@@ -1,0 +1,17 @@
+{
+    "name": "Session Generator",
+    "description": "Web Session Generator",
+    "logo": "https://i.ibb.co/2YsKWqLg/4446.jpg",
+    "repository": "පෙයා රෙපො එකෙ ලින්ක් දන්න ගිට්",
+    "keywords": ["SENU BOT","JESTER"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
